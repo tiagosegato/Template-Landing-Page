@@ -1,0 +1,116 @@
+/*importando as fontes do Google Fonts: https://fonts.google.com/*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*iniciando (zerando) algumas propriedades*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*criando variáveis para as cores*/
+:root{
+    --preto: #212121;
+    --cinza-escuro: #555;
+    --cinza: #DDD;
+    --cinza-claro: #f0f0f0;
+    --branco: #FFF;
+}
+
+/*classe de configuração das tags de estruturação*/
+.estrutura{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: var(--branco);
+}
+
+nav{
+    padding: 1rem 0;
+}
+
+.logo{
+    height: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.item-menu{
+    font-size: 1rem;
+    color: var(--cinza-escuro);
+}
+
+.item-menu:hover{
+    color: var(--preto);
+}
+
+main{
+    padding: 6rem 0;
+}
+
+header{
+    max-width: 500px;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 10px 10px var(--cinza-claro);
+    background-color: var(--cinza);
+}
+
+button:hover{
+    box-shadow: 10px 10px 10px var(--cinza);
+}
+
+.img-banner{
+    width: 500px;
+}
+
+.frase{  
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 5rem 0;
+}
+
+h3{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+.autor{
+    margin-top: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
