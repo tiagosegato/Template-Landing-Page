@@ -18,17 +18,70 @@
             <li><a class="item-menu" href="#">ITEM</a></li>
         </ul>
     </nav>
+
     <main class="estrutura">
         <header>
             <h1>Título Principal</h1>
-            <h2>Texto descritivo falando sobre o principal produto ou serviço do site e tentando convencer o usuário de que vale a pena conferir mais clicando no botão abaixo.</h2>
+            <p class="complemento">Texto descritivo falando sobre o principal produto ou serviço do site e tentando convencer o usuário de que vale a pena conferir mais clicando no botão abaixo.</p>
             <button>BOTÃO DE AÇÃO</button>
         </header>
         <img class="img-banner" src="assets/banner.svg" alt="Banner do site contendo...">
     </main>
+
     <section class="frase">
         <h3><em>“Texto descritivo falando sobre o principal produto ou serviço do site e tentando convencer o usuário de que vale a pena conferir mais clicando no botão abaixo”.</em></h3>
         <p class="autor">--Autor da Frase</p>
     </section>
+
+    <section id="sobre" class="estrutura">
+        <img src="assets/imagem.svg" alt="imagem de alguma coisa" />
+        <div class="txt-sobre">
+            <h2>Título Seção</h2>
+            <p>Texto descritivo falando sobre o principal produto ou serviço do site e tentando convencer o usuário de que vale a pena conferir mais clicando no botão abaixo.</p>
+            <p>Texto descritivo falando sobre o principal produto ou serviço do site e tentando convencer o usuário de que vale a pena conferir mais clicando no botão abaixo.</p>
+            <button>BOTÃO DE AÇÃO</button>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="estrutura">
+            <div class="txt-contato">
+                <h2>Título Seção</h2>
+            
+                <h4>Horário</h4>
+                <p>Informações dos dias e horários de funcionamento</p>
+
+                <h4>Endereço</h4>
+                <p>Localização <br>
+                Rua, Numero Bairro <br>
+                Cidade - CEP</p>
+
+                <h4>Contatos</h4>
+                <p>Telefone / WhatsApp</p>
+                <p>(61) 99999-9999</p>
+
+                <h4>Instagram</h4>
+                <p>@nomedaconta</p>
+            </div>
+            
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Nome e Sobrenome">
+
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" type="email" placeholder="usuário@email.com">
+
+                <label for="msg">Mensagem:</label>
+                <textarea name="msg" id="msg" rows="5"></textarea>
+
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="CANCELAR">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados <a href="https://tiagosegato.com" target="_blank">Tiago Segato</a> 2025</p>
+    </footer>
 </body>
 </html>

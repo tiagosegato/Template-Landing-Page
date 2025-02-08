@@ -57,11 +57,12 @@ ul{
     color: var(--preto);
 }
 
-main{
+main, #sobre, #contato{
     padding: 6rem 0;
+  
 }
 
-header{
+header, .txt-sobre, .txt-contato, form{
     max-width: 500px;
 }
 
@@ -72,7 +73,13 @@ h1{
 }
 
 h2{
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.complemento{
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 2rem;
 }
@@ -112,5 +119,65 @@ h3{
     margin-top: 2rem;
     font-weight: 700;
     text-align: center;
+    color: var(--branco);
 }
+
+p{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    color: var(--cinza-escuro);
+    margin-bottom: 1rem;
+}
+
+#contato{
+    background-color: var(--cinza);
+}
+
+label, input, textarea{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+input, textarea{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.5rem;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 6px;
+}
+
+input[type="submit"], input[type="reset"]{
+    width: 244px;
+    background-color:var(--cinza-escuro);
+    color: var(--cinza);
+    border: none;
+}
+
+input[type="reset"]{
+    background-color: var(--cinza-claro);
+    color:var(--cinza-escuro);
+}
+
+footer{
+    background-color: var(--preto);
+    padding: 3rem;
+}
+
+footer p{
+    color: var(--branco);
+    text-align: center;
+}
+
+footer a{
+    color: var(--branco);
+    font-weight: 500;
+}
+
 
