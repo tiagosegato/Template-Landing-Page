@@ -1,3 +1,78 @@
-# Landing Page Template
+# Template Landing Page
 
-Criação de uma landing page para ensinar HTML5 e CSS3 aos estudantes bem como servir para uso futuro como um template.
+Repositório com um **template básico de Landing Page** em HTML e CSS, projetado como ponto de partida para criação rápida de páginas estáticas. O template entrega estrutura e estilos iniciais prontos para edição — **não contém textos nem imagens finais**; personalize conforme sua necessidade.
+
+---
+
+## Sobre o projeto
+- **Objetivo:** fornecer uma base limpa e simples para criar landing pages estáticas.
+- **Observação técnica:** o código utiliza HTML e CSS básicos — **não usa CSS Grid** e **não é responsivo** por padrão. Ajustes para responsividade e melhorias de layout devem ser feitos pelo usuário.
+
+---
+
+## Curso (opcional)
+Se desejar aprender a construir esta landing page a partir do protótipo no Figma até a implementação em HTML/CSS, veja o curso relacionado:  
+[**Criando a Landing Page Perfeita com Figma**](https://www.udemy.com/course/criando-a-landing-page-perfeita-com-figma/?referralCode=1FC15EC4AAB8CAD15145)
+
+---
+
+## Como usar este template
+
+### 1) Fazer download
+- No GitHub: **Code → Download ZIP**  
+- Extraia os arquivos localmente e edite (`.html`, `.css`, e estrutura de pastas).
+
+### 2) Clonar via Git
+```bash
+git clone https://github.com/tiagosegato/Template-Landing-Page.git
+cd Template-Landing-Page
+```
+
+### 3) Criar um fork (recomendado)
+- Clique em **Fork** no GitHub para obter sua cópia independente.  
+- Modifique e publique onde preferir (GitHub Pages, Netlify, Vercel etc.).
+
+---
+
+## Estrutura básica do projeto
+- `index.html` — página principal (modelo)  
+- `css/` — arquivos CSS (estilos base)  
+- `assets/` — imagens e recursos (vazio por padrão)  
+
+Você pode reorganizar, renomear ou expandir conforme seu fluxo de trabalho.
+
+---
+
+## Personalização e sugestões
+- Substitua textos e imagens pelo seu conteúdo.  
+- Edite o CSS para ajustar cores, tipografia e espaçamentos.  
+- Para tornar responsivo, adicione media queries e/ou utilize Flexbox/Grid conforme preferir.  
+- Remova componentes não utilizados e mantenha o código limpo.
+
+---
+
+## Remover conteúdo padrão do protótipo
+O protótipo foi criado sem conteúdo final (sem imagens nem textos). Antes de publicar, verifique e substitua placeholders por conteúdo real.
+
+---
+
+## Licença e atribuição
+Reutilização permitida, **desde que o autor seja citado**. Ao usar este template em projetos públicos ou repositórios derivados, inclua uma referência ao autor.
+
+Exemplo de atribuição a incluir no README do projeto derivado ou no rodapé do site:
+
+```
+Template baseado em “Template Landing Page” por Tiago Segato — https://github.com/tiagosegato
+```
+
+---
+
+## Boas práticas de uso
+- Mantenha o histórico do seu fork/clonagem para facilitar atualizações.  
+- Teste em diferentes navegadores antes de publicar.  
+- Use um repositório privado se for conteúdo sensível ou não pronto para público.
+
+---
+
+## Autor / Contato
+**Tiago Segato** — https://github.com/tiagosegato
