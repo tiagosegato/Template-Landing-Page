@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Inter", sans-serif;
 }
 
 /*criando variáveis para as cores*/
@@ -29,7 +30,6 @@
 }
 
 body{
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     background-color: var(--branco);
 }
@@ -72,6 +72,14 @@ h1{
     margin-bottom: 2rem;
 }
 
+p{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    color: var(--cinza-escuro);
+    margin-bottom: 1rem;
+}
+
 h2{
     font-size: 2rem;
     font-weight: 700;
@@ -80,7 +88,6 @@ h2{
 
 .complemento{
     font-size: 1.2rem;
-    font-weight: 400;
     margin-bottom: 2rem;
 }
 
@@ -122,16 +129,8 @@ h3{
     color: var(--branco);
 }
 
-p{
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: justify;
-    color: var(--cinza-escuro);
-    margin-bottom: 1rem;
-}
-
 #contato{
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
 }
 
 label, input, textarea{
@@ -141,7 +140,7 @@ label, input, textarea{
 
 label{
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 300;
     color: var(--cinza-escuro);
 }
 
@@ -149,12 +148,12 @@ input, textarea{
     font-size: 1rem;
     font-weight: 300;
     padding: 0.5rem;
-    border: 1px solid var(--cinza-claro);
+    border: 1px solid var(--cinza);
     border-radius: 6px;
 }
 
 input[type="submit"], input[type="reset"]{
-    width: 244px;
+    width: 245px;
     background-color:var(--cinza-escuro);
     color: var(--cinza);
     border: none;
