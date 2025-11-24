@@ -1,17 +1,11 @@
 # Template Landing Page
 
-Repositório com um **template básico de Landing Page** em HTML e CSS, projetado como ponto de partida para criação rápida de páginas estáticas. O template entrega estrutura e estilos iniciais prontos para edição — **não contém textos nem imagens finais**; personalize conforme sua necessidade.
-
----
-
-## Sobre o projeto
-- **Objetivo:** fornecer uma base limpa e simples para criar landing pages estáticas.
-- **Observação técnica:** o código utiliza HTML e CSS básicos — **não usa CSS Grid** e **não é responsivo** por padrão. Ajustes para responsividade e melhorias de layout devem ser feitos pelo usuário.
+Repositório com um **template básico de uma Landing Page** em HTML5 e CSS, projetado como ponto de partida para criação rápida de páginas estáticas. O template entrega estrutura e estilos iniciais prontos para edição — **não contém textos nem imagens finais**; personalize conforme sua necessidade.
 
 ---
 
 ## Curso (opcional)
-Se desejar aprender a construir esta landing page a partir do protótipo no Figma até a implementação em HTML/CSS, veja o curso relacionado:  
+Se desejar aprender a construir esta landing page a partir do protótipo no Figma até a implementação em HTML5 e CSS, veja o curso relacionado:  
 [**Criando a Landing Page Perfeita com Figma**](https://www.udemy.com/course/criando-a-landing-page-perfeita-com-figma/?referralCode=1FC15EC4AAB8CAD15145)
 
 ---
@@ -37,7 +31,7 @@ cd Template-Landing-Page
 ## Estrutura básica do projeto
 - `index.html` — página principal (modelo)  
 - `css/` — arquivos CSS (estilos base)  
-- `assets/` — imagens e recursos (vazio por padrão)  
+- `assets/` — imagens e recursos (icones em svg)  
 
 Você pode reorganizar, renomear ou expandir conforme seu fluxo de trabalho.
 
@@ -64,13 +58,6 @@ Exemplo de atribuição a incluir no README do projeto derivado ou no rodapé do
 ```
 Template baseado em “Template Landing Page” por Tiago Segato — https://github.com/tiagosegato
 ```
-
----
-
-## Boas práticas de uso
-- Mantenha o histórico do seu fork/clonagem para facilitar atualizações.  
-- Teste em diferentes navegadores antes de publicar.  
-- Use um repositório privado se for conteúdo sensível ou não pronto para público.
 
 ---
 
