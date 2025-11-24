@@ -2,13 +2,10 @@
 
 Repositório com um **template básico de uma Landing Page** em HTML5 e CSS, projetado como ponto de partida para criação rápida de páginas estáticas. O template entrega estrutura e estilos iniciais prontos para edição — **não contém textos nem imagens finais**; personalize conforme sua necessidade.
 
----
 
 ## Curso (opcional)
-Se desejar aprender a construir esta landing page a partir do protótipo no Figma até a implementação em HTML5 e CSS, veja o curso relacionado:  
-[**Criando a Landing Page Perfeita com Figma**](https://www.udemy.com/course/criando-a-landing-page-perfeita-com-figma/?referralCode=1FC15EC4AAB8CAD15145)
+Se desejar aprender a construir esta landing page a partir do protótipo no Figma até a implementação em HTML5 e CSS, veja o curso relacionado: [**Criando a Landing Page Perfeita com Figma**](https://www.udemy.com/course/criando-a-landing-page-perfeita-com-figma/?referralCode=1FC15EC4AAB8CAD15145)
 
----
 
 ## Como usar este template
 
@@ -26,7 +23,6 @@ cd Template-Landing-Page
 - Clique em **Fork** no GitHub para obter sua cópia independente.  
 - Modifique e publique onde preferir (GitHub Pages, Netlify, Vercel etc.).
 
----
 
 ## Estrutura básica do projeto
 - `index.html` — página principal (modelo)  
@@ -35,20 +31,16 @@ cd Template-Landing-Page
 
 Você pode reorganizar, renomear ou expandir conforme seu fluxo de trabalho.
 
----
 
 ## Personalização e sugestões
 - Substitua textos e imagens pelo seu conteúdo.  
 - Edite o CSS para ajustar cores, tipografia e espaçamentos.  
-- Para tornar responsivo, adicione media queries e/ou utilize Flexbox/Grid conforme preferir.  
 - Remova componentes não utilizados e mantenha o código limpo.
 
----
 
 ## Remover conteúdo padrão do protótipo
 O protótipo foi criado sem conteúdo final (sem imagens nem textos). Antes de publicar, verifique e substitua placeholders por conteúdo real.
 
----
 
 ## Licença e atribuição
 Reutilização permitida, **desde que o autor seja citado**. Ao usar este template em projetos públicos ou repositórios derivados, inclua uma referência ao autor.
@@ -62,4 +54,4 @@ Template baseado em “Template Landing Page” por Tiago Segato — https://git
 ---
 
 ## Autor / Contato
-**Tiago Segato** — https://github.com/tiagosegato
+**Tiago Segato** — tiagosegato.com
